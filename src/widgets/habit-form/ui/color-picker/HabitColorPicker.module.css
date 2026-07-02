@@ -16,14 +16,14 @@
 }
 
 .label:has(:checked) {
-	outline: 2px solid var(--color-primary);
-	outline-offset: -2px;
+	box-shadow: inset 0 0 0 2px var(--color-primary);
 }
 
 /* input */
 .colorList input {
-	visibility: hidden;
+	position: absolute;
 	appearance: none;
+	opacity: 0;
 }
 
 .usedIndicator {

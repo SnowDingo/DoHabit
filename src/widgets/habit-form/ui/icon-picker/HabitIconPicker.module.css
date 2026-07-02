@@ -22,6 +22,7 @@
 
 /* label */
 .iconLabel {
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -31,15 +32,15 @@
 
 .iconLabel:has(:checked) {
 	color: var(--color-primary);
-	outline: 2px solid var(--color-primary);
-	outline-offset: -2px;
+	box-shadow: inset 0 0 0 2px var(--color-primary);
 	opacity: 1 !important;
 }
 
 /* input */
 .iconList input {
-	visibility: hidden;
+	position: absolute;
 	appearance: none;
+	opacity: 0;
 }
 
 /* icon */
