@@ -22,7 +22,9 @@ function ModalHeader({ title, onClose }: ModalHeaderProps) {
 				</div>
 
 				<h1 className={clsx('bg-surface-bordered', styles.title)}>
-					{title}
+					<span className={styles.titleText}>
+						{title}
+					</span>
 				</h1>
 			</header>
 		</div>

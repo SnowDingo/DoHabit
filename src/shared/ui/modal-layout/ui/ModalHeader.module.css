@@ -32,11 +32,18 @@
 
 /* title */
 .title {
-	align-content: center;
-	height: 48px;
-	padding: 0 16px;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	font-size: 1.4rem;
-	white-space: nowrap;
+	display: flex;
+    align-items: center;
+    min-width: 0;
+    height: 48px;
+    padding: 0 16px;
+    font-size: 1.4rem;
+}
+
+.titleText {
+	display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
