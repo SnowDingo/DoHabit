@@ -7,6 +7,7 @@ import { useNoteFormStore } from '@features/manage-note';
 import { removeNote } from '@features/remove-note';
 import { useNotesStore } from '@entities/note';
 import { Button } from '@shared/ui';
+import clsx from 'clsx';
 
 interface DiaryToolbarProps {
 	showScrollTop: boolean;
@@ -68,10 +69,27 @@ function DiaryToolbar(props: DiaryToolbarProps) {
 	return (
 		<div className={styles.toolbar}>
 			<AnimatePresence initial={false} mode='popLayout'>
+				{(showToolbar && isSelectionMode) && (
+					<Button
+						key='cancel-selection'
+						// variant='secondary'
+						className={clsx('bg-surface-bordered', styles.cancelSelection)}
+						onClick={exitSelectionMode}
+						{...motionProps}
+					>
+						<span>{t('common.cancel')}</span>
+						<span>·</span>
+						<span style={{ color: 'var(--accent-color)', fontWeight: 900 }}>
+							{selectedIds.size}
+						</span>
+					</Button>
+				)}
+
 				{(showToolbar && showScrollTop) && (
 					<Button
 						key='scroll-to-top-button'
-						className={styles.scrollToTopButton}
+						// variant='secondary'
+						className={clsx('bg-surface-bordered', styles.scrollToTopButton, styles.buttonSquare)}
 						onClick={onScrollTop}
 						{...motionProps}
 					>
@@ -83,7 +101,8 @@ function DiaryToolbar(props: DiaryToolbarProps) {
 				{(showToolbar && !isSelectionMode) && (
 					<Button
 						key='activate-note-form-button'
-						className={styles.activateNoteFormButton}
+						variant='primary'
+						className={clsx('bg-surface-bordered', styles.activateNoteFormButton, styles.buttonSquare)}
 						onClick={openNoteForm}
 						{...motionProps}
 					>
@@ -96,6 +115,7 @@ function DiaryToolbar(props: DiaryToolbarProps) {
 					<Button
 						key='delete-selected-notes-button'
 						variant='danger'
+						className={clsx('bg-surface-bordered', styles.buttonSquare)}
 						onClick={() => removeNote(
 							selectedIds,
 							() => {

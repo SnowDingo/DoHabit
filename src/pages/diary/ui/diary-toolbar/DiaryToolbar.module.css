@@ -17,7 +17,9 @@
 
 .toolbar button {
 	height: var(--toolbar-height);
+	font-size: 1rem;
 	pointer-events: auto;
+	background-color: var(--bg-color-primary);
 }
 
 .cancelSelection {
