@@ -1,4 +1,5 @@
 import styles from './DiaryToolbar.module.css';
+import clsx from 'clsx';
 import { AnimatePresence, type Variants } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { FaPlus, FaTrash } from 'react-icons/fa';
@@ -7,7 +8,6 @@ import { useNoteFormStore } from '@features/manage-note';
 import { removeNote } from '@features/remove-note';
 import { useNotesStore } from '@entities/note';
 import { Button } from '@shared/ui';
-import clsx from 'clsx';
 
 interface DiaryToolbarProps {
 	showScrollTop: boolean;
@@ -67,68 +67,68 @@ function DiaryToolbar(props: DiaryToolbarProps) {
 	const exitSelectionMode = useNotesStore((s) => s.exitSelectionMode);
 
 	return (
-		<div className={styles.toolbar}>
-			<AnimatePresence initial={false} mode='popLayout'>
-				{(showToolbar && isSelectionMode) && (
-					<Button
-						key='cancel-selection'
-						// variant='secondary'
-						className={clsx('bg-surface-bordered', styles.cancelSelection)}
-						onClick={exitSelectionMode}
-						{...motionProps}
-					>
-						<span>{t('common.cancel')}</span>
-						<span>·</span>
-						<span style={{ color: 'var(--accent-color)', fontWeight: 900 }}>
-							{selectedIds.size}
-						</span>
-					</Button>
-				)}
+		<div className={clsx('stuck-to-the-bottom', styles.wrapper)}>
+			<div className={styles.toolbar}>
+				<AnimatePresence initial={false} mode='popLayout'>
+					{(showToolbar && isSelectionMode) && (
+						<Button
+							key='cancel-selection'
+							className={clsx('bg-surface-bordered', styles.cancelSelection)}
+							onClick={exitSelectionMode}
+							{...motionProps}
+						>
+							<span>{t('common.cancel')}</span>
+							<span>·</span> {/* eslint-disable-line */}
+							<span style={{ color: 'var(--accent-color)', fontWeight: 900 }}>
+								{selectedIds.size}
+							</span>
+						</Button>
+					)}
 
-				{(showToolbar && showScrollTop) && (
-					<Button
-						key='scroll-to-top-button'
-						// variant='secondary'
-						className={clsx('bg-surface-bordered', styles.scrollToTopButton, styles.buttonSquare)}
-						onClick={onScrollTop}
-						{...motionProps}
-					>
-						UP
-					</Button>
-				)}
+					{(showToolbar && showScrollTop) && (
+						<Button
+							key='scroll-to-top-button'
+							className={clsx('bg-surface-bordered', styles.scrollToTopButton, styles.buttonSquare)}
+							onClick={onScrollTop}
+							{...motionProps}
+						>
+							UP
+						</Button>
+					)}
 
-				{/* Activate note form button */}
-				{(showToolbar && !isSelectionMode) && (
-					<Button
-						key='activate-note-form-button'
-						variant='primary'
-						className={clsx('bg-surface-bordered', styles.activateNoteFormButton, styles.buttonSquare)}
-						onClick={openNoteForm}
-						{...motionProps}
-					>
-						<FaPlus />
-					</Button>
-				)}
+					{/* Activate note form button */}
+					{(showToolbar && !isSelectionMode) && (
+						<Button
+							key='activate-note-form-button'
+							variant='primary'
+							className={clsx('bg-surface-bordered', styles.activateNoteFormButton, styles.buttonSquare)}
+							onClick={openNoteForm}
+							{...motionProps}
+						>
+							<FaPlus />
+						</Button>
+					)}
 
-				{/* Bulk selection actions */}
-				{(showToolbar && isSelectionMode) && (
-					<Button
-						key='delete-selected-notes-button'
-						variant='danger'
-						className={clsx('bg-surface-bordered', styles.buttonSquare)}
-						onClick={() => removeNote(
-							selectedIds,
-							() => {
-								exitSelectionMode();
-								toast.success(t('notes.notifications.deleteSuccess'));
-							}
-						)}
-						{...motionProps}
-					>
-						<FaTrash />
-					</Button>
-				)}
-			</AnimatePresence>
+					{/* Bulk selection actions */}
+					{(showToolbar && isSelectionMode) && (
+						<Button
+							key='delete-selected-notes-button'
+							variant='danger'
+							className={clsx('bg-surface-bordered', styles.buttonSquare)}
+							onClick={() => removeNote(
+								selectedIds,
+								() => {
+									exitSelectionMode();
+									toast.success(t('notes.notifications.deleteSuccess'));
+								}
+							)}
+							{...motionProps}
+						>
+							<FaTrash />
+						</Button>
+					)}
+				</AnimatePresence>
+			</div>
 		</div>
 	);
 }
