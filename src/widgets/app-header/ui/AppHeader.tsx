@@ -1,4 +1,5 @@
 import styles from './AppHeader.module.css';
+import clsx from 'clsx';
 import { getNavItems } from '../model/navigation';
 import { Button } from '@shared/ui';
 
@@ -11,14 +12,14 @@ function AppHeader() {
 	const navItems = getNavItems();
 
 	return (
-		<div className={styles.wrapper}>
+		<div className='header-wrapper'>
 			<header className={styles.header}>
 				<div className={styles.logoWrapper}>
 					<span className={styles.logo} />
 					<h1>DoHabit</h1> {/* eslint-disable-line */}
 				</div>
 
-				<nav className={styles.nav}>
+				<nav className={clsx('bg-surface-bordered', styles.nav)}>
 					<ul className={styles.navList}>
 						{navItems.map((item) => {
 							const { to, state, icon: Icon } = item;
