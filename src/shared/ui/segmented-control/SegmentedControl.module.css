@@ -1,7 +1,11 @@
+:root {
+	--container-padding: 4px;
+}
+
 .container {
 	display: flex;
 	gap: 4px;
-	padding: 4px;
+	padding: var(--container-padding);
 	overflow-x: scroll;
 	background-color: var(--bg-color-primary);
 	border-radius: var(--border-radius-secondary);
@@ -9,7 +13,7 @@
 
 .tab,
 .selectedIndicator {
-	border-radius: 16px
+	border-radius: calc(var(--border-radius-secondary) - var(--container-padding));
 }
 
 .tab {
