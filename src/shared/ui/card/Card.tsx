@@ -1,5 +1,5 @@
 import styles from './Card.module.css';
-import { type ReactNode } from 'react';
+import { type CSSProperties, type ReactNode } from 'react';
 import CardHeader from './CardHeader';
 import clsx from 'clsx';
 
@@ -10,8 +10,10 @@ interface CardProps {
 	badgeIcon?: ReactNode;
 	badgeColors?: { bg: string; color: string; size?: string };
 	children: React.ReactNode;
+	style?: CSSProperties;
 	className?: string;
 	childrenClassName?: string;
+	onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
 }
 
 function Card(props: CardProps) {
@@ -22,12 +24,18 @@ function Card(props: CardProps) {
 		badgeIcon,
 		badgeColors,
 		children,
+		style,
 		className,
-		childrenClassName
+		childrenClassName,
+		onClick
 	} = props;
 
 	return (
-		<div className={clsx(styles.card, className)}>
+		<div
+			style={style}
+			className={clsx(styles.card, className)}
+			onClick={onClick}
+		>
 			{title && (
 				<CardHeader
 					title={title}
