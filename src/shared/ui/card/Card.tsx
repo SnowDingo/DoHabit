@@ -7,7 +7,10 @@ interface CardProps {
 	title?: string;
 	description?: string;
 	extra?: ReactNode;
+	badgeIcon?: ReactNode;
+	badgeColors?: { bg: string; color: string; size?: string };
 	children: React.ReactNode;
+	className?: string;
 	childrenClassName?: string;
 }
 
@@ -16,17 +19,22 @@ function Card(props: CardProps) {
 		title,
 		description,
 		extra,
+		badgeIcon,
+		badgeColors,
 		children,
+		className,
 		childrenClassName
 	} = props;
 
 	return (
-		<div className={styles.card}>
+		<div className={clsx(styles.card, className)}>
 			{title && (
 				<CardHeader
 					title={title}
 					description={description}
 					extra={extra}
+					badgeIcon={badgeIcon}
+					badgeColors={badgeColors}
 				/>
 			)}
 
