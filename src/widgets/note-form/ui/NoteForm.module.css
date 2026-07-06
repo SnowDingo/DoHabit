@@ -11,6 +11,7 @@
 	max-width: var(--app-width);
 	padding-inline: var(--app-inline-padding);
 	margin: 0 auto;
+	background-image: unset;
 }
 
 .form textarea {
