@@ -20,6 +20,7 @@
 	font-size: 1rem;
 	line-height: 1.5rem;
 	resize: none;
+	box-shadow: unset;
 }
 
 .form textarea:focus {

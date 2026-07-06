@@ -59,7 +59,7 @@ function useListItems() {
 			icon: FaGithub,
 			iconProps: { color: '#7fc7ff' },
 			title: t('menu.shared.gitHub.title'),
-			description: t('menu.shared.gitHub.desc'),
+			// description: t('menu.shared.gitHub.desc'),
 			onClick: () => window.open('https://github.com/iNikAnn/DoHabit', '_blank'),
 			indicator: { type: 'external' }
 		},
@@ -67,7 +67,7 @@ function useListItems() {
 			icon: FaBug,
 			iconProps: { color: '#EF4444' },
 			title: t('menu.shared.feedback.title'),
-			description: t('menu.shared.feedback.desc'),
+			// description: t('menu.shared.feedback.desc'),
 			onClick: () => window.open('https://github.com/iNikAnn/DoHabit/issues/new', '_blank'),
 			indicator: { type: 'external' }
 		}

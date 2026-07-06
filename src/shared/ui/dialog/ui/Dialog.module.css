@@ -8,6 +8,7 @@
 	width: calc(100% - 16px);
 	max-width: 444px;
 	padding: 24px;
+	box-shadow: unset;
 }
 
 /* content */
