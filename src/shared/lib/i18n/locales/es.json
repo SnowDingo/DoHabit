@@ -1,393 +1,398 @@
 {
 	"achievements": {
+		"desc": "Sigue tus hitos y tu progreso",
 		"groups": {
-			"onboarding": ""
+			"onboarding": "Primeros pasos"
 		},
 		"items": {
 			"accumulated-year": {
-				"desc": "",
-				"title": ""
+				"desc": "¡Completaste un hábito 365 veces! Claro, hubo huecos, semanas de pereza y crisis existenciales... pero oye, matemáticamente, ¡suma un año entero!",
+				"title": "Un año... más o menos"
 			},
 			"compact-calendar": {
-				"desc": "",
-				"hint": "",
-				"title": ""
+				"desc": "¡Bum! Cambiaste tu calendario a la vista compacta. Máxima densidad, cero distracciones.",
+				"hint": "Activa el calendario compacto",
+				"title": "Ahorra espacio"
 			},
 			"diane-morning-log": {
-				"desc": "",
-				"title": ""
+				"desc": "«Diane, 7:30 de la mañana...» Escribiste una nota antes de las 9:00. Sírvete una taza de café condenadamente bueno y un donut: ¡el agente Cooper aprobaría sin duda tu rutina matutina!",
+				"title": "Buenos días, Diane"
 			},
 			"first-archive": {
-				"desc": "",
-				"hint": "",
-				"title": ""
+				"desc": "Fuera de la vista, pero no en el olvido. Archivaste con éxito tu primer hábito.",
+				"hint": "Archiva un hábito",
+				"title": "Borrón y cuenta nueva"
 			},
 			"first-note": {
-				"desc": "",
-				"hint": "",
-				"title": ""
+				"desc": "Acabas de crear tu primera nota. Sigue capturando tus pensamientos.",
+				"hint": "Crea tu primera nota",
+				"title": "Primera nota"
 			},
 			"fresh-start": {
-				"desc": "",
-				"hint": "",
-				"title": ""
+				"desc": "¡Bienvenido a bordo! Acabas de crear tu primer hábito. Vamos a hacer que se te pegue.",
+				"hint": "Crea tu primer hábito",
+				"title": "Un nuevo comienzo"
 			},
 			"gotham-protector": {
-				"desc": "",
-				"title": ""
+				"desc": "Escribiste una nota después de las 00:00. ¿Qué te mantiene despierto? ¿Estás protegiendo Gotham o solo le das demasiadas vueltas otra vez?",
+				"title": "El caballero oscuro"
 			},
 			"gravity-falls-journal": {
-				"desc": "",
-				"title": ""
+				"desc": "Estás anotando activamente tus pensamientos y anomalías. En algún lugar de Oregón, ¡Dipper Pines intenta desesperadamente encontrar tu diario para resolver los misterios de tu vida!",
+				"title": "Diario n.º 4"
 			},
 			"habit-vacation-over": {
-				"desc": "",
-				"title": ""
+				"desc": "Volviste a tu hábito tras una pausa de más de 21 días. Solo un recordatorio amistoso: la regla era mantenerlo 21 días seguidos para formar el hábito, ¡no tomarte 3 semanas de vacaciones de él! Pero oye, ¡bienvenido de vuelta!",
+				"title": "Formación de hábitos"
 			},
 			"ill-be-back": {
-				"desc": "",
-				"title": ""
+				"desc": "Archivaste 5 hábitos... porque ¿para qué hacerlos cuando puedes coleccionarlos?",
+				"title": "Volveré"
 			},
 			"main-quest-abandoned": {
-				"desc": "",
-				"title": ""
+				"desc": "El mundo se acaba, Alduin ha llegado, pero has ignorado este hábito 7 días seguidos. Comportamiento clásico de un Sangre de Dragón. Adivinamos: ¿te fuiste a perseguir mariposas?",
+				"title": "El Sangre de Dragón puede esperar"
 			},
 			"new-years-resolution": {
-				"desc": "",
-				"title": ""
+				"desc": "¡Rompiste la maldición! Empezaste y completaste un hábito el 1 de enero mientras todos los demás siguen dormidos.",
+				"title": "Año nuevo, vida nueva"
 			},
 			"not-twitter-approved": {
-				"desc": "",
-				"title": ""
+				"desc": "¡Enhorabuena! Has escrito una nota de más de 140 caracteres. Antiguamente esto jamás cabría en un tuit, pero ahora estás libre de esos límites ancestrales. ¡Sigue escribiendo!",
+				"title": "Sin aprobación de Twitter"
 			},
 			"overachiever-day": {
-				"desc": "",
-				"title": ""
+				"desc": "¡Vaya, tres hábitos en un solo día! ¿Quién diría que tenías tanto tiempo libre? ¡La procrastinación te sienta bien!",
+				"title": "¡El más aplicado del día!"
 			},
 			"perfect-day": {
-				"desc": "",
-				"title": ""
+				"desc": "¡Tienes 3 hábitos o más y los cumpliste todos y cada uno!",
+				"title": "¡Día perfecto!"
 			},
 			"perfect-year": {
-				"desc": "",
-				"title": ""
+				"desc": "365 días de disciplina absoluta. Empezaste el 1 de enero y no fallaste ni un solo día en todo el año.",
+				"title": "Conquistador del calendario"
 			},
 			"storage_info": {
-				"desc": "",
-				"hint": "",
-				"title": ""
+				"desc": "Lee la información sobre el almacenamiento de datos para saber cómo se guardan tus hábitos.",
+				"hint": "Lee la información de almacenamiento",
+				"title": "Guardián de los datos"
 			},
 			"time-traveler": {
-				"desc": "",
-				"title": ""
+				"desc": "Has dominado oficialmente el arte de fingir que eres productivo... ¡cinco veces!",
+				"title": "¡Te juro que lo hice!"
 			},
 			"tolstoy-mode": {
-				"desc": "",
-				"title": ""
+				"desc": "¡Impresionante! La cantidad total de caracteres de tus notas podría hacerle la competencia a León Tolstói.",
+				"title": "Guerra y paz... y más"
 			}
 		},
 		"list": {
-			"emptyDesc": "",
-			"emptyTitle": ""
+			"emptyDesc": "¡Desbloquea logros poco comunes usando la app con regularidad!",
+			"emptyTitle": "Aún no hay logros"
 		},
 		"notification": {
-			"desc": "",
-			"title": ""
+			"desc": "¡Parece que se han desbloqueado nuevos logros!\nPuedes verlos en la sección de logros.",
+			"title": "¡Logro desbloqueado!"
 		},
-		"title": ""
+		"title": "Logros"
 	},
 	"app": {
 		"errorBoundary": {
-			"desc": "",
+			"desc": "Prueba a recargar. Si no ayuda, restablece los datos de la app (tu progreso se guardará como copia de seguridad).",
 			"dialogs": {
-				"resetConfirm": ""
+				"resetConfirm": "¿Hacer una copia de tus datos y restablecer la app?"
 			},
-			"title": ""
+			"title": "¡Vaya! Algo salió mal"
 		},
 		"update": {
-			"text": "",
-			"title": ""
+			"text": "Pulsa el botón de recargar para sincronizar las últimas novedades.",
+			"title": "¡Actualización lista!"
 		}
 	},
 	"common": {
-		"all": "",
-		"app": "",
-		"cancel": "",
-		"close": "",
-		"continue": "",
-		"day": "",
-		"end": "",
-		"habits": "",
-		"icon": "",
-		"info": "",
-		"logo": "",
-		"reload": "",
-		"screenshot": "",
-		"settings": "",
-		"showLess": "",
-		"showMore": "",
-		"start": "",
-		"support": "",
+		"all": "Todos",
+		"app": "App",
+		"cancel": "Cancelar",
+		"close": "Cerrar",
+		"continue": "Continuar",
+		"day": "Día",
+		"end": "Fin",
+		"habits": "Hábitos",
+		"icon": "Icono",
+		"info": "Información",
+		"logo": "logo",
+		"reload": "Recargar",
+		"screenshot": "captura de pantalla",
+		"settings": "Ajustes",
+		"showLess": "Ver menos",
+		"showMore": "Ver más",
+		"start": "Inicio",
+		"support": "Apoyar",
 		"theme": {
-			"auto": "",
-			"dark": "",
-			"light": ""
+			"auto": "Automático",
+			"dark": "Oscuro",
+			"light": "Claro"
 		},
-		"ui": "",
-		"version": ""
+		"ui": "Interfaz",
+		"version": "Versión"
 	},
 	"habits": {
 		"actions": {
-			"archive": "",
-			"create": "",
-			"createNew": "",
-			"delete": "",
-			"doneYesterday": "",
-			"edit": "",
-			"notes": "",
-			"share": "",
-			"undoYesterday": "",
-			"update": ""
+			"archive": "Archivar hábito",
+			"create": "Crear hábito",
+			"createNew": "Crear nuevo hábito",
+			"delete": "Eliminar hábito",
+			"doneYesterday": "Hecho ayer",
+			"edit": "Editar hábito",
+			"notes": "Notas",
+			"share": "Compartir hábito",
+			"undoYesterday": "Deshacer ayer",
+			"update": "Guardar cambios"
 		},
 		"dialogs": {
-			"archiveConfirm": "",
-			"deleteConfirm": "",
-			"manageTitle": "",
-			"restoreConfirm": ""
+			"archiveConfirm": "¿Seguro que quieres archivar este hábito?",
+			"deleteConfirm": "¿Seguro que quieres eliminar este hábito? Los datos eliminados no se pueden recuperar.",
+			"manageTitle": "Gestionar hábito",
+			"restoreConfirm": "¿Seguro que quieres restaurar este hábito?"
 		},
 		"form": {
-			"colorDesc": "",
-			"colorTitle": "",
+			"colorDesc": "Los puntos indican colores que ya están en uso. Aun así puedes reutilizarlos.",
+			"colorTitle": "Color",
 			"errors": {
-				"alreadyExists": ""
+				"alreadyExists": "Ya existe."
 			},
-			"frequencyDesc": "",
-			"frequencyTitle": "",
-			"iconDesc": "",
-			"iconTitle": "",
-			"namePlaceholder": "",
-			"nameTitle": "",
-			"orderDesc": "",
+			"frequencyDesc": "Veces al día que quieres repetir este hábito.",
+			"frequencyTitle": "Frecuencia",
+			"iconDesc": "Los iconos atenuados ya están en uso. Aun así puedes reutilizarlos.",
+			"iconTitle": "Icono",
+			"namePlaceholder": "Nombre del hábito...",
+			"nameTitle": "Nombre",
+			"orderDesc": "La posición del hábito en tu lista.",
 			"orderSorting": {
-				"btnAlreadyAtBottom": "",
-				"btnAlreadyAtTop": "",
-				"btnMoveToBottom": "",
-				"btnMoveToTop": "",
-				"btnStepDown": "",
-				"btnStepUp": ""
+				"btnAlreadyAtBottom": "Ya está al final",
+				"btnAlreadyAtTop": "Ya está al principio",
+				"btnMoveToBottom": "Mover al final",
+				"btnMoveToTop": "Mover al principio",
+				"btnStepDown": "Bajar un paso",
+				"btnStepUp": "Subir un paso"
 			},
-			"orderTitle": ""
+			"orderTitle": "Orden"
 		},
 		"list": {
-			"createFirst": "",
-			"emptyActiveDesc": "",
-			"emptyActiveTitle": "",
-			"emptyArchivedDesc": "",
-			"emptyArchivedTitle": ""
+			"createFirst": "Crear el primer hábito",
+			"emptyActiveDesc": "¿Por qué no creas uno ahora?",
+			"emptyActiveTitle": "Sin hábitos activos",
+			"emptyArchivedDesc": "Puedes archivar un hábito editándolo.",
+			"emptyArchivedTitle": "Sin hábitos archivados"
 		},
 		"share": {
-			"desc": "",
-			"error": "",
-			"notSupported": "",
-			"title": ""
+			"desc": "¡Mira esto!",
+			"error": "No se pudo generar la imagen.",
+			"notSupported": "Compartir no es compatible.",
+			"title": "Compartir"
 		},
 		"stats": {
-			"chartCompletions": "",
-			"currentStreak": "",
-			"longestStreak": "",
-			"monthlyChartTitle": "",
-			"streak": "",
-			"streakHistoryDesc": "",
-			"streakHistoryTitle": "",
-			"title": "",
-			"totalCompleted": "",
-			"weekdayChartTitle": ""
+			"chartCompletions": "Cumplimientos",
+			"currentStreak": "Actual",
+			"longestStreak": "Máxima",
+			"monthlyChartTitle": "Cumplimientos por mes",
+			"monthlyChartDesc": "Distribución de los cumplimientos a lo largo de los meses",
+			"streak": "Racha",
+			"streakHistoryDesc": "Muestra rachas de 2 días o más",
+			"streakHistoryTitle": "Historial de rachas",
+			"title": "Estadísticas",
+			"totalCompleted": "Días completados en total",
+			"weekdayChartTitle": "Cumplimientos por día de la semana",
+			"weekdayChartDesc": "Distribución de los cumplimientos a lo largo de los días",
+			"totalCompletedTitle": "Cumplimientos totales",
+			"totalCompletedDesc": "Veces cumplido durante este año"
 		}
 	},
 	"menu": {
 		"appearance": {
 			"animations": {
-				"desc": "",
-				"disabledBySystem": "",
-				"title": ""
+				"desc": "Transiciones y efectos",
+				"disabledBySystem": "Desactivado por Reducir movimiento",
+				"title": "Animaciones"
 			},
 			"calendar": {
-				"compact": "",
-				"default": "",
+				"compact": "Compacto",
+				"default": "Estándar",
 				"highlightToday": {
-					"title": ""
+					"title": "Resaltar hoy"
 				},
-				"sectionTitle": "",
+				"sectionTitle": "Calendario",
 				"showDayNumbers": {
-					"desc": "",
-					"title": ""
+					"desc": "Solo para el calendario estándar",
+					"title": "Mostrar números de día"
 				},
 				"showWeekdayNames": {
-					"desc": "",
-					"title": ""
+					"desc": "Solo para el calendario estándar",
+					"title": "Mostrar nombres de días"
 				},
-				"typeDesc": "",
-				"typeTitle": ""
+				"typeDesc": "Actual: {{type}}",
+				"typeTitle": "Vista de calendario compacto"
 			},
-			"desc": "",
+			"desc": "Personaliza el aspecto",
 			"language": {
-				"desc": "",
+				"desc": "Actual: {{lang}}",
 				"dialogs": {
-					"selectTitle": ""
+					"selectTitle": "Selecciona el idioma"
 				},
-				"title": ""
+				"title": "Idioma"
 			},
 			"theme": {
-				"desc": "",
+				"desc": "Actual: {{theme}}",
 				"dialogs": {
-					"selectThemeTitle": ""
+					"selectThemeTitle": "Selecciona el tema"
 				},
-				"selectTitle": "",
-				"title": ""
+				"selectTitle": "Selecciona el tema",
+				"title": "Tema"
 			},
-			"title": ""
+			"title": "Apariencia"
 		},
 		"archive": {
-			"desc": "",
-			"title": ""
+			"desc": "Gestionar hábitos archivados",
+			"title": "Archivo"
 		},
 		"dataManagement": {
 			"backup": {
 				"export": {
-					"desc": "",
+					"desc": "Guarda una copia en tu dispositivo",
 					"dialogs": {
-						"exportConfirm": "",
+						"exportConfirm": "¿Descargar el archivo de copia de seguridad en tu dispositivo?",
 						"passwordPrompt": "Opcional: introduce una contraseña para cifrar la copia de seguridad. Déjalo vacío para exportar como JSON sin cifrar."
 					},
-					"title": ""
+					"title": "Exportar"
 				},
 				"import": {
-					"desc": "",
+					"desc": "Restaura tus datos desde una copia de seguridad",
 					"notifications": {
-						"error": "",
-						"success": "",
+						"error": "Algo salió mal durante la importación.",
+						"success": "¡Datos importados correctamente! La aplicación se recargará ahora.",
 						"wrongPassword": "Error al descifrar. La contraseña puede ser incorrecta o el archivo está dañado."
 					},
-					"title": "",
+					"title": "Importar",
 					"dialogs": {
 						"passwordPrompt": "Esta copia de seguridad está cifrada. Introduce la contraseña para descifrarla:"
 					}
 				},
-				"sectionTitle": ""
+				"sectionTitle": "Copia de seguridad"
 			},
 			"danger": {
 				"clearAll": {
-					"desc": "",
+					"desc": "Eliminar todos los datos",
 					"dialogs": {
-						"confirm": "",
-						"prompt": ""
+						"confirm": "¿Seguro que quieres eliminar todos los datos de la aplicación?\n\nEsto incluye:\n- Todos tus hábitos\n- Todos los logros\n- Todas las entradas del diario\n\n¡Esta acción no se puede deshacer!",
+						"prompt": "Para confirmar, escribe: \"{{phrase}}\":"
 					},
 					"notifications": {
-						"error": "",
-						"success": ""
+						"error": "Acción cancelada o frase incorrecta.",
+						"success": "Todos los datos se han eliminado correctamente. La aplicación se recargará ahora."
 					},
-					"title": ""
+					"title": "Borrar todo"
 				},
-				"sectionTitle": ""
+				"sectionTitle": "Zona de peligro"
 			},
-			"desc": "",
+			"desc": "Copia, restaura o borra tus datos",
 			"info": {
 				"storage": {
-					"description": "",
-					"title": ""
+					"description": "Cómo y dónde se guardan tus datos",
+					"title": "Almacenamiento"
 				}
 			},
-			"title": ""
+			"title": "Gestión de datos"
 		},
 		"shared": {
 			"feedback": {
-				"desc": "",
-				"title": ""
+				"desc": "Reporta errores o sugiere mejoras",
+				"title": "Informar de un problema"
 			},
 			"gitHub": {
-				"desc": "",
-				"title": ""
+				"desc": "Ver el proyecto o contribuir a él",
+				"title": "Repositorio de GitHub"
 			}
 		},
-		"title": ""
+		"title": "Menú"
 	},
 	"notes": {
 		"actions": {
-			"copy": "",
-			"delete": "",
-			"edit": ""
+			"copy": "Copiar texto",
+			"delete": "Eliminar nota",
+			"edit": "Editar nota"
 		},
 		"dialogs": {
-			"deleteConfirm": ""
+			"deleteConfirm": "¿Seguro que quieres eliminar esta(s) nota(s)?"
 		},
 		"form": {
-			"textPlaceholder": ""
+			"textPlaceholder": "Escribe tu nota aquí..."
 		},
 		"list": {
-			"emptyDesc": "",
-			"emptyTitle": "",
-			"selected": ""
+			"emptyDesc": "Añade tu primera nota para empezar a registrar tu progreso y tus pensamientos.",
+			"emptyTitle": "El diario está vacío",
+			"selected": "Notas seleccionadas"
 		},
 		"notifications": {
-			"copyError": "",
-			"copySuccess": "",
-			"createSuccess": "",
-			"deleteSuccess": "",
-			"editSuccess": ""
+			"copyError": "No se pudo copiar.",
+			"copySuccess": "¡Copiado!",
+			"createSuccess": "¡Nota creada!",
+			"deleteSuccess": "¡Nota(s) eliminada(s)!",
+			"editSuccess": "¡Cambios guardados!"
 		},
 		"tags": {
-			"all": "",
-			"emptyDesc": "",
-			"emptyTitle": "",
-			"forYear": ""
+			"all": "Todas",
+			"emptyDesc": "Para crear una etiqueta, simplemente añade una almohadilla (#) antes de cualquier palabra al escribir una nota.",
+			"emptyTitle": "Sin etiquetas",
+			"forYear": "Etiquetas de {{year}}"
 		},
-		"title": ""
+		"title": "Diario principal"
 	},
 	"storageInfo": {
 		"actions": {
-			"confirm": ""
+			"confirm": "Entiendo"
 		},
-		"intro": "",
-		"notice": "",
-		"privacy": "",
-		"pwa": "",
-		"warning": ""
+		"intro": "La app almacena todos los datos directamente en tu dispositivo.",
+		"notice": "Haz copias de seguridad con regularidad. La copia es un pequeño archivo JSON que puedes mover a cualquier dispositivo.",
+		"privacy": "Privacidad total: sin servidores remotos, sin sincronización en la nube y sin rastreadores. Tus datos son estrictamente tuyos.",
+		"pwa": "Para mayor seguridad, instala esta app en tu pantalla de inicio. El almacenamiento de una PWA instalada está protegido por el sistema operativo y rara vez se borra automáticamente.",
+		"warning": "Si la usas a través de un navegador normal, borrar el historial o la caché eliminará tus hábitos."
 	},
 	"welcome": {
 		"actions": {
-			"continue": "",
-			"install": ""
+			"continue": "Continuar en el navegador",
+			"install": "Instalar en dispositivo"
 		},
 		"benefits": {
 			"offline": {
-				"desc": "",
-				"title": ""
+				"desc": "No necesitas conexión a internet.",
+				"title": "100% sin conexión"
 			},
 			"privacy": {
-				"desc": "",
-				"title": ""
+				"desc": "Sin cuentas, sin servidores.",
+				"title": "100% privado"
 			},
 			"secure": {
-				"desc": "",
-				"title": ""
+				"desc": "Tus datos, bajo tu control.",
+				"title": "Tus datos son tuyos"
 			},
 			"simplicity": {
-				"desc": "",
-				"title": ""
+				"desc": "Sin configuración, empieza al instante.",
+				"title": "Inicio instantáneo"
 			}
 		},
-		"description": "",
+		"description": "Un asistente ligero con estadísticas visuales, logros por rachas y un diario de progreso integrado.",
 		"pwa": {
 			"chromeNudge": {
-				"text": "",
-				"title": ""
+				"text": "La instalación nativa es compatible con navegadores basados en Chromium.\nAbre esta app en Google Chrome para instalarla en tu dispositivo.",
+				"title": "Se requiere Google Chrome"
 			},
 			"ios": {
-				"steps": "",
-				"title": ""
+				"steps": "Abre esta página en Safari, toca el icono de 'Compartir' en el menú del navegador y selecciona 'Añadir a pantalla de inicio'.",
+				"title": "Instalar en iOS"
 			}
 		},
-		"titleLine1": "",
-		"titleLine2": ""
+		"titleLine1": "Crea tu rutina.",
+		"titleLine2": "Tus datos son tuyos."
 	}
 }
