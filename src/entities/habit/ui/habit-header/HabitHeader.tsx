@@ -26,7 +26,7 @@ function HabitHeader(props: HabitHeaderProps) {
 				{Icon && <Icon />}
 			</div>
 
-			<div className={styles.titleWrapper} >
+			<div className={styles.titleWrapper}>
 				<h4 className={styles.title}>
 					{habit.title}
 				</h4>
