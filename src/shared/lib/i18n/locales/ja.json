@@ -200,7 +200,6 @@
 			"streakHistoryDesc": "",
 			"streakHistoryTitle": "",
 			"title": "",
-			"totalCompleted": "",
 			"weekdayChartTitle": ""
 		}
 	},
@@ -263,15 +262,15 @@
 				},
 				"import": {
 					"desc": "",
+					"dialogs": {
+						"passwordPrompt": "このバックアップは暗号化されています。復号するパスワードを入力してください:"
+					},
 					"notifications": {
 						"error": "",
 						"success": "",
 						"wrongPassword": "復号に失敗しました。パスワードが間違っているか、ファイルが破損している可能性があります。"
 					},
-					"title": "",
-					"dialogs": {
-						"passwordPrompt": "このバックアップは暗号化されています。復号するパスワードを入力してください:"
-					}
+					"title": ""
 				},
 				"sectionTitle": ""
 			},

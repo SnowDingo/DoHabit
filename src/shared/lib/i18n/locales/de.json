@@ -200,7 +200,6 @@
 			"streakHistoryDesc": "",
 			"streakHistoryTitle": "",
 			"title": "",
-			"totalCompleted": "",
 			"weekdayChartTitle": ""
 		}
 	},
@@ -263,15 +262,15 @@
 				},
 				"import": {
 					"desc": "",
+					"dialogs": {
+						"passwordPrompt": "Dieses Backup ist verschlüsselt. Passwort zum Entschlüsseln eingeben:"
+					},
 					"notifications": {
 						"error": "",
 						"success": "",
 						"wrongPassword": "Entschlüsselung fehlgeschlagen. Das Passwort ist möglicherweise falsch oder die Datei ist beschädigt."
 					},
-					"title": "",
-					"dialogs": {
-						"passwordPrompt": "Dieses Backup ist verschlüsselt. Passwort zum Entschlüsseln eingeben:"
-					}
+					"title": ""
 				},
 				"sectionTitle": ""
 			},

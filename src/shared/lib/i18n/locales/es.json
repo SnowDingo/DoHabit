@@ -196,17 +196,16 @@
 			"chartCompletions": "Cumplimientos",
 			"currentStreak": "Actual",
 			"longestStreak": "Máxima",
-			"monthlyChartTitle": "Cumplimientos por mes",
 			"monthlyChartDesc": "Distribución de cumplimientos por mes",
+			"monthlyChartTitle": "Cumplimientos por mes",
 			"streak": "Racha",
 			"streakHistoryDesc": "Muestra rachas de 2 días o más",
 			"streakHistoryTitle": "Historial de rachas",
 			"title": "Estadísticas",
-			"totalCompleted": "Días completados en total",
-			"weekdayChartTitle": "Cumplimientos por día",
-			"weekdayChartDesc": "Distribución de cumplimientos por día",
+			"totalCompletedDesc": "Veces cumplido durante este año",
 			"totalCompletedTitle": "Cumplimientos totales",
-			"totalCompletedDesc": "Veces cumplido durante este año"
+			"weekdayChartDesc": "Distribución de cumplimientos por día",
+			"weekdayChartTitle": "Cumplimientos por día"
 		}
 	},
 	"menu": {
@@ -268,15 +267,15 @@
 				},
 				"import": {
 					"desc": "Restaura tus datos desde una copia de seguridad",
+					"dialogs": {
+						"passwordPrompt": "Esta copia de seguridad está cifrada. Introduce la contraseña para descifrarla:"
+					},
 					"notifications": {
 						"error": "Algo salió mal durante la importación.",
 						"success": "¡Datos importados correctamente! La aplicación se recargará ahora.",
 						"wrongPassword": "Error al descifrar. La contraseña puede ser incorrecta o el archivo está dañado."
 					},
-					"title": "Importar",
-					"dialogs": {
-						"passwordPrompt": "Esta copia de seguridad está cifrada. Introduce la contraseña para descifrarla:"
-					}
+					"title": "Importar"
 				},
 				"sectionTitle": "Copia de seguridad"
 			},

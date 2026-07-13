@@ -196,17 +196,16 @@
 			"chartCompletions": "Выполнено",
 			"currentStreak": "Текущая",
 			"longestStreak": "Лучшая",
-			"monthlyChartTitle": "Выполнения по месяцам",
 			"monthlyChartDesc": "Распределение активности по месяцам",
+			"monthlyChartTitle": "Выполнения по месяцам",
 			"streak": "Серия",
 			"streakHistoryDesc": "Серии от 2 дней",
 			"streakHistoryTitle": "История серий",
 			"title": "Статистика",
-			"totalCompleted": "Всего выполненных дней",
-			"weekdayChartTitle": "Выполнения по дням недели",
-			"weekdayChartDesc": "Распределение активности по дням",
+			"totalCompletedDesc": "За этот год",
 			"totalCompletedTitle": "Выполнено раз",
-			"totalCompletedDesc": "За этот год"
+			"weekdayChartDesc": "Распределение активности по дням",
+			"weekdayChartTitle": "Выполнения по дням недели"
 		}
 	},
 	"menu": {
@@ -268,15 +267,15 @@
 				},
 				"import": {
 					"desc": "Загрузить бэкап из файла",
+					"dialogs": {
+						"passwordPrompt": "Эта резервная копия зашифрована. Введите пароль для расшифровки:"
+					},
 					"notifications": {
 						"error": "Ошибка импорта.",
 						"success": "Импорт успешен! Перезагрузка...",
 						"wrongPassword": "Не удалось расшифровать. Возможно, пароль неверен или файл повреждён."
 					},
-					"title": "Импорт",
-					"dialogs": {
-						"passwordPrompt": "Эта резервная копия зашифрована. Введите пароль для расшифровки:"
-					}
+					"title": "Импорт"
 				},
 				"sectionTitle": "Бэкап"
 			},
