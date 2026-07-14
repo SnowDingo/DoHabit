@@ -261,9 +261,14 @@
 					"desc": "Save a backup data to your device",
 					"dialogs": {
 						"exportConfirm": "Download backup file to your device?",
-						"passwordPrompt": "Optional: enter a password to encrypt the backup. Leave empty to export as plain JSON."
+						"passwordPrompt": {
+							"title": "Encrypt Backup",
+							"desc": "Optional: Enter a password to protect your data. If left empty, the backup file will remain unencrypted.",
+							"submitBtn": "Download backup"
+						}
 					},
-					"title": "Export"
+					"title": "Export",
+					"passwordPlaceholder": "Enter password"
 				},
 				"import": {
 					"desc": "Upload your app data from a backup file",
